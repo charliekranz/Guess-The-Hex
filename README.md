@@ -29,18 +29,23 @@ Intro paragraphs
 
 ## Design
 - ### Colours
-    - Shades of red to echo Sicilian identity (flag), but using duskier tones.
-    - A complimentary light dusky blue to emulate sky and sea.
-    - White and bright red for contrast and important sections (About) and well as UX (Buttons).
-    - I am pleased with this revised colour scheme as I feel it pays homage to traditional tones yet makes a feature of the bright red 
-    which expresses the vitality that this ancient site still holds to this day.
-    - Although I quite liked the bright red on maroon treatment for the timeline, I knew that accessibility was more important and 
-    so used higher-contrast combination of white/grey on maroon.
+    - A neutral colour scheme to allow the various dynamically-generated colours to feature more obviously
+    - White and off-white (gray) elements
+    - A cool blue feature colour for buttons and headers
+    - Initially I had envisioned a strict black/white colour scheme, but I wanted a more inviting UI and introduced the blue and white theming.
 
 - ### UI
-    - A one page layout seemed the best fit for this content as it allows the user to peruse each section through scrolling or clicks.
+
+- #### Website UI
+    - A mult-page website seemed the best option as it allows the user to more easily access the various sections independently.
+    - Multi-page also allows the user to access the main feature (game), without the complication of over-scrolling beyond the content.
     - The menu is clearly indicated across all views and the buttons are easy to see.
-    - The footer menu offers a secondary ability to access sections directly.
+    - The footer menu offers a secondary options (social channels and contact).
+
+- #### Game UI
+    - I followed a recommendation to use buttons with Hexdec text rather than a radio-button option.
+    - Using direct buttons was more immersive and allowed me to streamline the layout better.
+    - The green/red feedback indication 
 
 - #### Typography
     - Typefaces used are Lexend Peta for titles/headers and Open Sans for body text with Sans Serif as the fallback if fonts aren't imported correctly.
