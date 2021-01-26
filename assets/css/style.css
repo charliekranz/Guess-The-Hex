@@ -38,6 +38,12 @@ div.inline {
 
 /*--------------------------------------------------------  Game  */
 
+#sColor {
+    height: 20em;
+    width: 100%;
+}
+
+
 .play {
         background-color: #eeeeee;
 }
