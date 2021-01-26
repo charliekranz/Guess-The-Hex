@@ -11,6 +11,7 @@
     
 <title>Guess the HEX!</title>
 
+<script src="assets/js/randomcolor.js"></script>
 </head>
 
 <body>
@@ -37,25 +38,25 @@
 
     <!-- ==============================  Game -->
 
-
-    <div class="d-flex justify-content-center game-title-section">
+<section class="container-fluid play">
+<div class="d-flex justify-content-center game-title-section">
             <span class="d-block">
                 <div id="game-message">
                     Guess the Hexdec of this Colour
                 </div>
              </span>
-    </div>
+</div>
  <div class="d-flex justify-content-center game">
             <div id="game-buttons">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm">
+                        <div class="col d-flex justify-content-center">
                             <button type="button" class="btn btn-game">hexdec</button>
                         </div>
-                        <div class="col-sm">
+                        <div class="col d-flex justify-content-center">
                             <button type="button" class="btn btn-game">hexdec</button>
                         </div>
-                        <div class="col-sm">
+                        <div class="col d-flex justify-content-center">
                             <button type="button" class="btn btn-game">hexdec</button>
                         </div>
                     </div>
@@ -63,22 +64,22 @@
             </div>
     </div>
 
-    <!-- ==============================  Progress Bar -->
+<!-- ==============================  Progress Bar -->
 
     <div class="d-flex justify-content-center progress-bar">
         Progress
     </div>
 
-    <!-- ==============================  Score -->
+ <!-- ==============================  Score -->
 
     <div class="d-flex justify-content-center score">
         Score
     </div>
 
-    <!-- ==============================  Mode and Game -->
+    <!-- ==============================  Mode and Restart -->
 
     <div class="d-flex justify-content-center mode">
-                    <div id="game-buttons">
+                    <div id="settings-restart">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm">
@@ -91,6 +92,8 @@
                 </div>
             </div>
     </div>
+
+    </section>
 
 </div>
 
