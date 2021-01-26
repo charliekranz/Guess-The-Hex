@@ -1,3 +1,27 @@
+/*--------------------------------------------------------  General */
+
+.inline-block {
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+}
+
+div.inline { 
+    float:left;
+}
+
+.clearBoth {
+    clear:both;
+}
+
+/*--------------------------------------------------------  Header and Logo  */
+
+
+/*--------------------------------------------------------  Mobile Header and Logo  */
+
+
 .mobilemenu {
     background-color: #6FA8DC;
 }
