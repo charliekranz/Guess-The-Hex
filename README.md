@@ -188,6 +188,9 @@ This was deployed on GitHub Pages and can be viewed at: <a href="https://charlie
 * 3D Recreation / Reconstruction by Altair4 Multimedia Archeo3D Production
 
 ### Code
+
+* Initial random color js https://codepen.io/cferdinandi/pen/RmEwRr
+
 * Navbar - Modified navbar code from <https://getbootstrap.com/docs/4.0/components/navbar/>
 * Hover css - <https://ianlunn.github.io/Hover/#effects>
 * Gallery Template (styling) - <https://tutorialzine.com/2018/03/3-amazing-bootstrap-4-gallery-templates>

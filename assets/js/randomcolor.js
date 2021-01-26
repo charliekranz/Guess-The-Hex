@@ -32,7 +32,9 @@ var shuffle = function (array) {
 var randomColor = function () {
 
 	// The available colors
-	var sColor = ['blue', 'red', 'yellow', 'orange', 'green', 'rebeccapurple'];
+    var sColor = ['#000000', '#FFFFFF', '#FF0000', '#00FF00', '#0000FF', '#FFFF00',
+    '#00FFFF', '#FF00FF', '#999999', '#008000', 'FFFFCC', '#CCCCCC',
+    '#00CCFF', '#CCCC66', '#993300', '#FFCC99', '#CCCCFF', '#9966CC'];
 
 	// Shuffle the colors
 	shuffle(sColor);
