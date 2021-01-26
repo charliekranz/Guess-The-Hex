@@ -189,7 +189,7 @@ This was deployed on GitHub Pages and can be viewed at: <a href="https://charlie
 
 ### Code
 
-* Initial random color js https://codepen.io/cferdinandi/pen/RmEwRr
+* Initial random color code from https://gomakethings.com/how-to-pick-a-random-color-with-vanilla-js/ and https://codepen.io/cferdinandi/pen/RmEwRr
 
 * Navbar - Modified navbar code from <https://getbootstrap.com/docs/4.0/components/navbar/>
 * Hover css - <https://ianlunn.github.io/Hover/#effects>
