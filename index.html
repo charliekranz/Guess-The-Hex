@@ -16,13 +16,10 @@
 <!-- ==============================  Logo and Nav -->
     <header>
         <div class = "d-none">test</div>
-        <div class="row">
-            <div class="d-flex justify-content-center d-none d-md-block">Logo Main</div>
-            <div class="d-flex justify-content-center d-none d-md-block">Main Menu</div>
-        </div>
+
         <div class="row nav-mobile ">
-            <div class="d-flex justify-content-center col-8 logo-mobile d-md-none">Logo Mobile</div>
-            <div class="d-flex justify-content-center col-4 menu-mobile d-md-none">Mobile Menu</div>
+            <div class="d-flex justify-content-center col-8 logo-mobile">Logo Mobile</div>
+            <div class="d-flex justify-content-center col-4 menu-mobilee">Mobile Menu</div>
         </div>
 
     </header>
@@ -35,37 +32,42 @@
         Timer
     </div>
 
-    <!-- ==============================  Game -->
+<!-- ==============================  Game -->
 
+
+<!-- ==============================  Quiz -->
 <div id="sColor"></div>
-<section class="container-fluid color-section">
-
-    <div id="start">
-    Intro text
-    </div>
-
-    <div id="quiz" style = "display: none;">
-         <div id="question"></div>
-            <div id="qImg"></div>
-            <div id="choices">
-                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
-                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
-                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
-            </div>
-            <div id="timer">
-                <div id="counter"></div>
-                <div id="btimeGauge"></div>
-                <div id="timeGauge"></div>
-            </div>
-            <div id="progress"></div>
+    <section class="container-fluid color-section">
+        <div id="start">
+            Start Quiz!
         </div>
+         <div id="quiz" style = "display: none;">
+                    <div id="qImg"><img src = "img.png"></div>
+                    <div id="question"><p>Question</p></div>
+<!-- ==============================  Timer -->
+                    <div id="timer">
+                         <div id="counter">6</div>
+                                <div id="btimeGauge"></div>
+                                <div id="timeGauge"></div>
+                        </div>
+                          <div id="choices">
+                                <div class="choice" id="A" onclick="checkAnswer('A')">A</div>
+                                <div class="choice" id="B" onclick="checkAnswer('B')">B</div>
+                                <div class="choice" id="C" onclick="checkAnswer('C')">C</div>
+                         </div>
+<!-- ==============================  Progress Bar -->
+                          <div id="progress">
+                              <div class="prog"></div>
+                          </div>
+<!-- ==============================  Score -->
+                         <div id="scoreContainer" style = "display: none;">
+                            <img src="smile.png"><p>50%</p>
+                        </div>
+                 </div>
+     </section>
+</div>
 
 
-    </div>
-
-    <div id="scoreContainer" style = "display: none;">
-        Result
-    </div>
 
 <div class="d-flex justify-content-center game-title-section">
             <span class="d-block">
@@ -91,7 +93,7 @@
                 </div>
             </div>
     </div>
-</section>
+
 <section class="container-fluid play">
 <!-- ==============================  Progress Bar -->
 
@@ -123,8 +125,6 @@
     </div>
 
     </section>
-
-</div>
 
 <!-- ==============================  Footer -->
 
