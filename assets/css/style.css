@@ -1,9 +1,8 @@
 /*--------------------------------------------------------  General */
 
-.body {
+body {
     background-color: #eeeeee;
 }
-
 
 .inline-block {
     display: inline-block;
@@ -22,6 +21,10 @@ div.inline {
 }
 
 /*--------------------------------------------------------  Header and Logo  */
+
+.logo {
+    min-height: 3em;;
+}
 
 .menu {
     background-color: #eeeeee;
@@ -48,10 +51,15 @@ div.inline {
         background-color: #eeeeee;
 }
 
+.score {
+    min-height: 4em;
+}
+
 /*--------------------------------------------------------  Footer  */
 
 .footer {
     background-color: #6FA8DC;
+    min-height: 10em;
 }
 
 /*--------------------------------------------------------  Test  */

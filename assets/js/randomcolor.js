@@ -47,3 +47,32 @@ var randomColor = function () {
 // Set the background-color of the #colors element to a random color
 var app = document.querySelector('#sColor');
 app.style.backgroundColor = randomColor();
+
+
+// Add values to the other buttons //
+
+for(var i=0 ; i<squares.length ; i++){
+    // Add colours to squares
+    squares[i].style.backgroundColor = colours[i];
+ 
+    // Add click listeners to squares
+    // Setup mouseover listener
+    squares[i].addEventListener("click", function(){
+    // Grab colour of picked square
+    var clickedColour = this.style.backgroundColor;
+        // Compare colour to winningColour
+        if(clickedColour === colourPicked){
+ 
+        } else{
+            this.style.backgroundColor = "#232323";
+        }
+         
+    });
+}
+
+// Populates one button with winning color //
+
+var colourPicked = colours[3];
+var winningColour = document.querySelector("#winningColour");
+ 
+winningColour.textContent = colourPicked;
